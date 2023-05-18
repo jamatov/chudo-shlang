@@ -6,8 +6,8 @@ export default function Header() {
     <header className='Header' id='Header'>
       <div className="container">
         <div className="header-body">
-          <div className="row align-items-center">
-            <div className="col-md-6 header-info">
+          <div className="row column-reverse align-items-center">
+            <div className="col-lg-6 header-info">
               <div>
                 <h2>Tezkor va ishonchli</h2>
                 <p>Kengaytirilgan kuzatuv va monitoring vositalari korxonalarga oʻz joʻnatmalarini kuzatib borishda va mijozlarga real vaqtda yangilanishlarni taqdim etishda yordam beradi.</p>
@@ -15,7 +15,7 @@ export default function Header() {
               </div>
             </div>
 
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <img src={Headervidio} alt="" />
             </div>
           </div>

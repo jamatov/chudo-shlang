@@ -1,0 +1,56 @@
+@media (max-width : 992px) {
+
+  .column-reverse{
+    flex-direction: column-reverse !important;
+  }
+  .Header{
+    .header-body{
+      padding: 48px 24px;
+      gap: 25px;
+  
+      img{
+        width: 100%;
+        margin-bottom: 24px;
+      }
+  
+      .header-info{
+        h2{
+          font-style: normal;
+          font-weight: 700;
+          font-size: 56px;
+          line-height: 66px;
+          color: #FFFFFF;
+          margin-bottom: 15px;
+        }
+  
+        p{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 28px;
+          color: rgba(255, 255, 255, 0.75);
+          margin-bottom: 48px;
+        }
+  
+        button{
+          display: flex;
+          background: none;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 10px 32px;
+          gap: 10px;
+          width: 227px;
+          height: 40px;
+          border: 1px solid #FFFFFF;
+          border-radius: 10px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 21px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}

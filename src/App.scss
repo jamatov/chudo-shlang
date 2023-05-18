@@ -11,6 +11,10 @@ $card-bg : #F5F4FC;
   font-family: 'Roboto', sans-serif;
 }
 
+.App{
+  overflow-x: hidden;
+}
+
 a{
   text-decoration: none;
 }
@@ -79,19 +83,23 @@ li{
   }
 }
 
+
+
 .Header{
   margin-bottom: 100px;
   .header-body{
-    background-color: #203ECA;
+    background: linear-gradient(43.53deg, #BC73DE 2.44%, #687FC7 100%);
+    border-radius: 20px;
     padding: 48px 82px;
     gap: 25px;
+
+    
 
     img{
       width: 100%;
     }
-    .header-info{
 
-     
+    .header-info{
       h2{
         font-style: normal;
         font-weight: 700;
@@ -157,6 +165,7 @@ li{
 }
 
 .Products{
+  margin-bottom: 100px;
   .products-tittle{
     font-style: normal;
     font-weight: 700;
@@ -171,6 +180,7 @@ li{
       border: none;
       background: $card-bg;
       border-radius: 10px 10px 0px 0px;
+      margin-bottom: 40px;
       img{
         width: 100%;
         margin-bottom: 8px;
@@ -232,6 +242,74 @@ li{
             margin: 0;
           }
         }
+      }
+    }
+  }
+}
+
+.Contact{
+  h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: #0D1951;
+    margin-bottom: 64px;
+  }
+
+  .contact-form{
+    label{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #7A7A7A;
+      margin-bottom: 8px;
+    }
+
+    input{
+      border: none;
+      align-items: flex-start;
+      padding: 16px;
+      gap: 10px;
+      height: 53px;
+      background: rgba(204, 204, 204, 0.25);
+      border-radius: 5px;
+      margin-bottom: 24px;
+    }
+
+    textarea{
+      padding: 16px;
+      gap: 10px;
+      border: none;
+      min-height: 100px;
+      
+      background: rgba(204, 204, 204, 0.25);
+      border-radius: 5px;
+      margin-bottom: 32px;
+    }
+
+    button{
+      display: flex;
+      align-items: center;
+      padding: 16px 32px;
+      gap: 16px;
+      width: auto;
+      border: none;
+      height: 48px;
+      background: #203ECA;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 140%;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      transition: 0.4s !important;
+
+      &:hover{
+        gap: 25px;
+        transition: 0.3s !important;
+        
       }
     }
   }
