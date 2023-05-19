@@ -248,6 +248,7 @@ li{
 }
 
 .Contact{
+  margin-bottom: 48px;
   h2{
     font-style: normal;
     font-weight: 700;
@@ -255,6 +256,22 @@ li{
     line-height: 140%;
     color: #0D1951;
     margin-bottom: 64px;
+  }
+
+  .mr{
+    margin-right: 10px;
+  }
+
+  .socials{
+    a{
+      display: block;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 140%;
+      color: #0D1951;
+      margin-bottom: 30px;
+    }
   }
 
   .contact-form{
@@ -310,6 +327,39 @@ li{
         gap: 25px;
         transition: 0.3s !important;
         
+      }
+    }
+  }
+}
+
+.Footer{
+  padding: 32px 0;
+  background: #060C28;
+  .footer-logo{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #D2D8F4;
+    padding-bottom: 16px;
+  }
+
+  .d-flex{
+    padding: 17px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    ul{
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+
+      .footer-links{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #CCCCCC;
       }
     }
   }
