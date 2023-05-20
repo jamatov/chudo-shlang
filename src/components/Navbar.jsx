@@ -1,14 +1,26 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Logo from '../images/Logo.png'
 
 export default function Navbar() {
+  const [active, setActive] = useState('nav__menu');
+  const [toggleIcon, setToggleIcon] = useState('nav__toggler')
+  const navToggle = () =>{
+    active === "nav__menu"
+      ? setActive("nav__menu nav__active")
+      : setActive("nav__menu")
+
+    toggleIcon === "nav__toggler"
+      ? setToggleIcon("nav__toggler toggle")
+      : setToggleIcon("nav__toggler")
+
+  }
   return (
     <nav className='Navbar' id="HeaderCarusel">
       <div className="container">
         <div className='nav-body'>
           <img src={Logo} alt="logo" />
 
-          <ul className='nav-list'>
+          <ul className={active}>
             <li><a href="#HeaderCarusel">Asosiy </a></li>
             <li><a href="#Products">Mahsulotlar</a></li>
             <li><a href="#About">Biz haqimizda</a></li>
@@ -22,7 +34,7 @@ export default function Navbar() {
             </li>
           </ul>
 
-          <div className="nav__toggler">
+          <div onClick={navToggle} className={toggleIcon}>
             <div className="line1"></div>
             <div className="line2"></div>
             <div className="line3"></div>
