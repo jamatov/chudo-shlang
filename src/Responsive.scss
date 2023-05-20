@@ -361,6 +361,7 @@ $card-bg : #F5F4FC;
       flex-direction: column;
       justify-content: center;
       transform: translateX(100%);
+      overflow-y: inherit;
     }
   }
 }

@@ -6,10 +6,10 @@ export default function About() {
     <section className='About' id='About'>
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-6">
+          <div data-aos="fade-right" data-aos-duration="1500" className="col-lg-6">
             <img src={Img} alt="" />
           </div>
-          <div className="col-lg-6">
+          <div data-aos="fade-left" data-aos-duration="1500" className="col-lg-6">
             <h3>Biz haqimizda</h3>
             <p>Sug'orish shlangi - cho'zilgan
               Mavsum oldidan eng foydali narxlar

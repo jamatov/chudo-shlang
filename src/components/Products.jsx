@@ -16,7 +16,7 @@ export default function Products() {
         <div className="row">
 
           <div className="col-6 col-md-4 col-lg-3">
-            <div className="card">
+            <div data-aos="zoom-in" data-aos-duration="1500" className="card">
               <img src={img} alt="" />
               <div className="card-body">
                 <h3 className='card-info'>LEOMAX tomonidan Miracle Hose Ultra</h3>
@@ -38,7 +38,7 @@ export default function Products() {
           </div>
 
           <div className="col-6 col-md-4 col-lg-3">
-            <div className="card">
+            <div data-aos="zoom-in" data-aos-duration="1500" className="card">
               <img src={img2} alt="" />
               <div className="card-body">
                 <h3 className='card-info'>LEOMAX tomonidan Miracle Hose Ultra</h3>
@@ -60,7 +60,7 @@ export default function Products() {
           </div>
 
           <div className="col-6 col-md-4 col-lg-3">
-            <div className="card">
+            <div data-aos="zoom-in" data-aos-duration="1500" className="card">
               <img src={img3} alt="" />
               <div className="card-body">
                 <h3 className='card-info'>LEOMAX tomonidan Miracle Hose Ultra</h3>
@@ -82,7 +82,7 @@ export default function Products() {
           </div>
 
           <div className="col-6 col-md-4 col-lg-3">
-            <div className="card">
+            <div data-aos="zoom-in" data-aos-duration="1500" className="card">
               <img src={img4} alt="" />
               <div className="card-body">
                 <h3 className='card-info'>LEOMAX tomonidan Miracle Hose Ultra</h3>
@@ -104,7 +104,7 @@ export default function Products() {
           </div>
 
           <div className="col-6 col-md-4 col-lg-3">
-            <div className="card">
+            <div data-aos="zoom-in" data-aos-duration="1500" className="card">
               <img src={img5} alt="" />
               <div className="card-body">
                 <h3 className='card-info'>LEOMAX tomonidan Miracle Hose Ultra</h3>
@@ -126,7 +126,7 @@ export default function Products() {
           </div>
 
           <div className="col-6 col-md-4 col-lg-3">
-            <div className="card">
+            <div data-aos="zoom-in" data-aos-duration="1500" className="card">
               <img src={img6} alt="" />
               <div className="card-body">
                 <h3 className='card-info'>LEOMAX tomonidan Miracle Hose Ultra</h3>
@@ -148,7 +148,7 @@ export default function Products() {
           </div>
 
           <div className="col-6 col-md-4 col-lg-3">
-            <div className="card">
+            <div data-aos="zoom-in" data-aos-duration="1500" className="card">
               <img src={img3} alt="" />
               <div className="card-body">
                 <h3 className='card-info'>LEOMAX tomonidan Miracle Hose Ultra</h3>
@@ -170,7 +170,7 @@ export default function Products() {
           </div>
 
           <div className="col-6 col-md-4 col-lg-3">
-            <div className="card">
+            <div data-aos="zoom-in" data-aos-duration="1500" className="card">
               <img src={img} alt="" />
               <div className="card-body">
                 <h3 className='card-info'>LEOMAX tomonidan Miracle Hose Ultra</h3>
@@ -192,7 +192,7 @@ export default function Products() {
           </div>
 
           <div className="col-6 col-md-4 col-lg-3">
-            <div className="card">
+            <div data-aos="zoom-in" data-aos-duration="1500" className="card">
               <img src={img4} alt="" />
               <div className="card-body">
                 <h3 className='card-info'>LEOMAX tomonidan Miracle Hose Ultra</h3>
@@ -214,7 +214,7 @@ export default function Products() {
           </div>
 
           <div className="col-6 col-md-4 col-lg-3">
-            <div className="card">
+            <div data-aos="zoom-in" data-aos-duration="1500" className="card">
               <img src={img2} alt="" />
               <div className="card-body">
                 <h3 className='card-info'>LEOMAX tomonidan Miracle Hose Ultra</h3>
@@ -236,7 +236,7 @@ export default function Products() {
           </div>
 
           <div className="col-6 col-md-4 col-lg-3">
-            <div className="card">
+            <div data-aos="zoom-in" data-aos-duration="1500" className="card">
               <img src={img5} alt="" />
               <div className="card-body">
                 <h3 className='card-info'>LEOMAX tomonidan Miracle Hose Ultra</h3>
@@ -258,7 +258,7 @@ export default function Products() {
           </div>
 
           <div className="col-6 col-md-4 col-lg-3">
-            <div className="card">
+            <div data-aos="zoom-in" data-aos-duration="1500" className="card">
               <img src={img6} alt="" />
               <div className="card-body">
                 <h3 className='card-info'>LEOMAX tomonidan Miracle Hose Ultra</h3>
