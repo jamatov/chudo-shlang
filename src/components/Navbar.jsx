@@ -21,11 +21,11 @@ export default function Navbar() {
           <img src={Logo} alt="logo" />
 
           <ul className={active}>
-            <li><a href="#HeaderCarusel">Asosiy </a></li>
-            <li><a href="#Products">Mahsulotlar</a></li>
-            <li><a href="#About">Biz haqimizda</a></li>
+            <li onClick={navToggle}><a href="#HeaderCarusel">Asosiy </a></li>
+            <li onClick={navToggle}><a href="#Products">Mahsulotlar</a></li>
+            <li onClick={navToggle}><a href="#About">Biz haqimizda</a></li>
 
-            <li><a href="#Contact">Aloqa</a></li>
+            <li onClick={navToggle}><a href="#Contact">Aloqa</a></li>
             <li>
               <select name="language" id="">
                 <option value="uz">O’zbekcha</option>
