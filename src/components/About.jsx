@@ -3,7 +3,7 @@ import Img from '../images/about-img.jpg'
 
 export default function About() {
   return (
-    <section className='About'>
+    <section className='About' id='About'>
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6">

@@ -8,11 +8,13 @@ import Footer from './components/Footer';
 import Location from './components/Location';
 import About from './components/About';
 import Cards from './components/Cards';
+import HeaderCarusel from './components/HeaderCarusel';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
+      <HeaderCarusel/>
       <Header/>
       <Products/>
       <About/>

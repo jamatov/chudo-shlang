@@ -10,7 +10,7 @@ import img6 from '../images/shlang6.png'
 
 export default function Products() {
   return (
-    <main className='Products'>
+    <main className='Products' id='Products'>
       <div className="container">
         <h2 className='products-tittle'>Barcha maxsulotlar</h2>
         <div className="row">
@@ -25,7 +25,7 @@ export default function Products() {
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
                 <p className='skidka'>250 000 UZS</p>
-                <p className='proce'>220 000 UZS</p>
+                <p className='price'>220 000 UZS</p>
 
                 <a href="tel:+998338678767">
                   <button className='card-button'>
@@ -47,7 +47,7 @@ export default function Products() {
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
                 <p className='skidka'>250 000 UZS</p>
-                <p className='proce'>220 000 UZS</p>
+                <p className='price'>220 000 UZS</p>
 
                 <a href="tel:+998338678767">
                   <button className='card-button'>
@@ -69,7 +69,7 @@ export default function Products() {
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
                 <p className='skidka'>250 000 UZS</p>
-                <p className='proce'>220 000 UZS</p>
+                <p className='price'>220 000 UZS</p>
 
                 <a href="tel:+998338678767">
                   <button className='card-button'>
@@ -91,7 +91,7 @@ export default function Products() {
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
                 <p className='skidka'>250 000 UZS</p>
-                <p className='proce'>220 000 UZS</p>
+                <p className='price'>220 000 UZS</p>
 
                 <a href="tel:+998338678767">
                   <button className='card-button'>
@@ -113,7 +113,7 @@ export default function Products() {
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
                 <p className='skidka'>250 000 UZS</p>
-                <p className='proce'>220 000 UZS</p>
+                <p className='price'>220 000 UZS</p>
 
                 <a href="tel:+998338678767">
                   <button className='card-button'>
@@ -135,7 +135,7 @@ export default function Products() {
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
                 <p className='skidka'>250 000 UZS</p>
-                <p className='proce'>220 000 UZS</p>
+                <p className='price'>220 000 UZS</p>
 
                 <a href="tel:+998338678767">
                   <button className='card-button'>
@@ -157,7 +157,7 @@ export default function Products() {
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
                 <p className='skidka'>250 000 UZS</p>
-                <p className='proce'>220 000 UZS</p>
+                <p className='price'>220 000 UZS</p>
 
                 <a href="tel:+998338678767">
                   <button className='card-button'>
@@ -179,7 +179,7 @@ export default function Products() {
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
                 <p className='skidka'>250 000 UZS</p>
-                <p className='proce'>220 000 UZS</p>
+                <p className='price'>220 000 UZS</p>
 
                 <a href="tel:+998338678767">
                   <button className='card-button'>
@@ -201,7 +201,7 @@ export default function Products() {
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
                 <p className='skidka'>250 000 UZS</p>
-                <p className='proce'>220 000 UZS</p>
+                <p className='price'>220 000 UZS</p>
 
                 <a href="tel:+998338678767">
                   <button className='card-button'>
@@ -223,7 +223,7 @@ export default function Products() {
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
                 <p className='skidka'>250 000 UZS</p>
-                <p className='proce'>220 000 UZS</p>
+                <p className='price'>220 000 UZS</p>
 
                 <a href="tel:+998338678767">
                   <button className='card-button'>
@@ -245,7 +245,7 @@ export default function Products() {
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
                 <p className='skidka'>250 000 UZS</p>
-                <p className='proce'>220 000 UZS</p>
+                <p className='price'>220 000 UZS</p>
 
                 <a href="tel:+998338678767">
                   <button className='card-button'>
@@ -267,7 +267,7 @@ export default function Products() {
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
                 <p className='skidka'>250 000 UZS</p>
-                <p className='proce'>220 000 UZS</p>
+                <p className='price'>220 000 UZS</p>
 
                 <a href="tel:+998338678767">
                   <button className='card-button'>

@@ -1,4 +1,321 @@
 @media (max-width : 576px) {
+  .HeaderCarusel{
+    margin-bottom: 64px;
+  
+    
+  
+    .slick-dots li.slick-active button:before {
+      opacity: .75;
+      color: #203ECA !important;
+      font-size: 14px; 
+    }
+  
+  
+    .slider-body{
+      display: flex !important;
+      align-items: center !important;
+      flex-direction: row-reverse;
+      gap: 20px;
+      margin-bottom: 40px;
+  
+      .slider-body__img{
+        img{
+          width: 100%;
+        }
+      }
+  
+      .slider-body__info{
+        width: 50%;
+  
+        h2{
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 38px;
+          margin-bottom: 16px;
+        }
+  
+        p{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          margin-bottom: 24px;
+        }
+  
+        button{
+          
+        }
+      }
+    }
+  }
+
+  .Header{
+    margin-bottom: 60px;
+    .header-body{
+      background: linear-gradient(43.53deg, #BC73DE 2.44%, #687FC7 100%);
+      border-radius: 20px;
+      padding: 48px 82px;
+      gap: 25px;
+  
+      
+  
+      img{
+        width: 100%;
+      }
+  
+      .header-info{
+        h2{
+          font-weight: 700 !important;
+          font-size: 32px !important;
+          line-height: 38px !important;
+        }
+  
+        p{
+          font-weight: 400 !important;
+          font-size: 16px !important;
+          line-height: 19px !important;
+          margin-bottom: 24px !important;
+        }
+  
+        button{
+          display: flex;
+          background: none;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 10px 32px;
+          gap: 10px;
+          width: 227px;
+          height: 40px;
+          border: 1px solid #FFFFFF;
+          border-radius: 10px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 21px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+  
+  .Products{
+    margin-bottom: 60px;
+    .products-tittle{
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 32px;
+    }
+  
+    .row{
+      .card{
+        border: none;
+        border-radius: 10px 10px 0px 0px;
+        margin-bottom: 40px;
+        img{
+          width: 100%;
+          margin-bottom: 8px;
+        }
+  
+        .card-body{
+          .card-info{
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 130%;
+          }
+  
+          
+  
+          .skidka{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 130%;
+            text-decoration-line: line-through;
+            color: #999999;
+            margin: 0;
+          }
+  
+          .price{
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 130%;
+            margin-bottom: 8px;
+          }
+  
+          .card-button{
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 15px;
+            padding: 5px;
+            gap: 4px;
+            
+            &:hover{
+              transition: 0.3s ease-in-out;
+              transform: scale(1.02);
+            }
+            
+  
+            img{
+              width: 14px;
+              height: 14px;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .About{
+    margin-bottom: 60px;
+    .row{
+      
+      div{
+        img{
+          width: 100%;
+          border-radius: 20px;
+          margin-bottom: 16px;
+        }
+  
+        h3{
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          margin-bottom: 8px;
+        }
+  
+        p{
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 16px;
+        }
+      }
+    }
+  }
+
+  .Cards{
+    margin-bottom: 30px;
+    .row{
+
+      .col-lg-4{
+        margin-bottom: 20px;
+      }
+      .card{
+        padding: 16px;
+        border: none;
+        border-radius: 32px;
+        background: #F8F3FE;
+        height: 100%;
+  
+        img{
+          width: 40px;
+          height: 40px;
+          margin-bottom: 8px;
+        }
+  
+        h3{
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 130%;
+          letter-spacing: 0.02em;
+        }
+  
+        p{
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 140%;
+          letter-spacing: 0.02em;
+        }
+      }
+    }
+  }
+
+  .Contact{
+    margin-bottom: 48px;
+    h2{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 140%;
+      margin-bottom: 32px;
+    }
+  
+    .mr{
+      margin-right: 10px;
+    }
+  
+    .socials{
+      a{
+        display: block;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 140%;
+        color: #0D1951;
+        margin-bottom: 30px;
+      }
+    }
+  
+    .contact-form{
+      label{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #7A7A7A;
+        margin-bottom: 8px;
+      }
+  
+      input{
+        border: none;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 10px;
+        height: 53px;
+        background: rgba(204, 204, 204, 0.25);
+        border-radius: 5px;
+        margin-bottom: 24px;
+      }
+  
+      textarea{
+        padding: 16px;
+        gap: 10px;
+        border: none;
+        min-height: 100px;
+        
+        background: rgba(204, 204, 204, 0.25);
+        border-radius: 5px;
+        margin-bottom: 32px;
+      }
+  
+      button{
+        display: flex;
+        align-items: center;
+        padding: 16px 32px;
+        gap: 16px;
+        width: auto;
+        border: none;
+        height: 48px;
+        background: #203ECA;
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        transition: 0.4s !important;
+  
+        &:hover{
+          gap: 25px;
+          transition: 0.3s !important;
+          
+        }
+      }
+    }
+  }
+  
+
   .Footer{
 
     .d-flex{
@@ -39,7 +356,21 @@
 }
 
 @media (max-width : 992px) {
+  .HeaderCarusel{
+    .slider-body{
+      display: block !important;
 
+      .slider-body__info{
+        width: 100% !important;
+      }
+
+      .slider-body__img{
+        width: 100% !important;
+        margin-bottom: 50px;
+      }
+    }
+  }
+  
   .About{
     .row{
       div{

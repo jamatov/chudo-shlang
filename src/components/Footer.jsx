@@ -16,10 +16,10 @@ export default function Footer() {
 
           <div className="d-flex">
             <ul className='ul1'>
-              <li><a className='footer-links' href="#Header">Asosiy</a></li>
-              <li><a className='footer-links' href="">Biz haqimizda</a></li>
-              <li><a className='footer-links' href="">Mahsulotlar</a></li>
-              <li><a className='footer-links' href="">Aloqa</a></li>
+              <li><a className='footer-links' href="#HeaderCarusel">Asosiy</a></li>
+              <li><a className='footer-links' href="#Products">Mahsulotlar</a></li>
+              <li><a className='footer-links' href="#About">Biz haqimizda</a></li>
+              <li><a className='footer-links' href="#Contact">Aloqa</a></li>
             </ul>
 
             <ul>
