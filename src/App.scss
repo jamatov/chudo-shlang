@@ -247,6 +247,36 @@ li{
   }
 }
 
+.About{
+  margin-bottom: 100px;
+  .row{
+    
+    div{
+      img{
+        width: 100%;
+        border-radius: 20px;
+      }
+
+      h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        color: #0D1951;
+        margin-bottom: 24px;
+      }
+
+      p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #7A7A7A;
+      }
+    }
+  }
+}
+
 .Contact{
   margin-bottom: 48px;
   h2{

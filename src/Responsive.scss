@@ -40,6 +40,16 @@
 
 @media (max-width : 992px) {
 
+  .About{
+    .row{
+      div{
+        img{
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+
   .column-reverse{
     flex-direction: column-reverse !important;
   }
