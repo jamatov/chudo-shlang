@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import Img from '../images/slider-img.png'
+import img1 from '../images/header-img1.jpg'
 
 export default class PauseOnHover extends Component {
   render() {
