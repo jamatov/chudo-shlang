@@ -155,8 +155,23 @@ li{
     margin-bottom: 40px;
 
     .slider-body__img{
+      position: relative;
       img{
         width: 100%;
+      }
+
+      .blue-info{
+        position: absolute;
+        height: 26px;
+        padding: 4px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 16px;
+        top: 16px;
+        background: #203ECA;
+        border-radius: 4px;
+        
       }
     }
 
@@ -427,17 +442,17 @@ li{
       img{
         width: 64px;
         height: 64px;
-        margin-bottom: 24px;
+        margin-bottom: 10px;
       }
 
       h3{
         font-style: normal;
         font-weight: 600;
-        font-size: 32px;
+        font-size: 24px;
         line-height: 130%;
         letter-spacing: 0.02em;
         color: #0D1951;
-        margin-bottom: 8px;
+        margin-bottom: 15px;
       }
 
       p{
