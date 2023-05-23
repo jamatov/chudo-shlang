@@ -28,7 +28,7 @@ export default function HeaderCarusel() {
             {/* <div className="blue-info">Magic hose - 30M</div> */}
           </div>
           <div className="slider-body__info">
-            <h2>MAGIC HOSE</h2>
+            <h2>Magic Hose ORIGINAL</h2>
             <p>{t("caruselInfo")}</p>
 
             <button>{t("consultation")}</button>
@@ -41,7 +41,7 @@ export default function HeaderCarusel() {
             <img src={img2} alt="" />
           </div>
           <div className="slider-body__info">
-            <h2>MAGIC HOSE 2</h2>
+            <h2>Magic Hose ORIGINAL</h2>
             <p>{t("caruselInfo")}</p>
 
 
@@ -56,7 +56,7 @@ export default function HeaderCarusel() {
             <img src={img3} alt="" />
           </div>
           <div className="slider-body__info">
-            <h2>MAGIC HOSE 3</h2>
+            <h2>Magic Hose ORIGINAL</h2>
             <p>{t("caruselInfo")}</p>
 
 
