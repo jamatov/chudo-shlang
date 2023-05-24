@@ -159,9 +159,6 @@ export default function Products() {
               <div className="card-body">
                 <h3 className='card-info'>Magic hose - 37,5m</h3>
 
-                {/* <div className="card-countdown">
-                  <img className='card-icon' src={timericon} alt="" />
-                </div> */}
                 <p className='skidka'>239 000 UZS</p>
                 <p className='price'>209 000 UZS</p>
 
