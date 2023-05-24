@@ -181,10 +181,10 @@ li{
       h2{
         font-style: normal;
         font-weight: 700;
-        font-size: 64px;
+        font-size: 56px;
         line-height: 75px;
         color: #1A32A2;
-        margin-bottom: 24px;
+        margin-bottom: 18px;
       }
 
       p{
@@ -512,9 +512,14 @@ li{
       padding: 16px;
       gap: 10px;
       height: 53px;
-      background: rgba(204, 204, 204, 0.25);
+      background: $card-bg;
       border-radius: 5px;
       margin-bottom: 24px;
+      border: 1px solid $border-color;
+    }
+
+    .p1{
+      margin-bottom: 0 !important;
     }
 
     textarea{
@@ -522,8 +527,8 @@ li{
       gap: 10px;
       border: none;
       min-height: 100px;
-      
-      background: rgba(204, 204, 204, 0.25);
+      border: 1px solid $border-color;
+      background: $card-bg;
       border-radius: 5px;
       margin-bottom: 32px;
     }

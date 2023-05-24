@@ -137,7 +137,7 @@ export default function Contact() {
                   }
                   setError(p => ({ ...p, phone: [false, ''] }))
                 }} style={error.phone[0] ? styled : null} type="tel" pattern="[+]{1}[0-9]{3}[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder={t("numberplaceholder")} />
-                {error.phone[0] && <p style={{ color: 'red' }} className='position-absolute bottom-0 mb-3'>{error.phone[1]}</p>}
+                {error.phone[0] && <p style={{ color: 'red' }} className='position-absolute p1 bottom-0'>{error.phone[1]}</p>}
               </div>
 
               <div className='position-relative'>

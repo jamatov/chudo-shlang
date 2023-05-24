@@ -8,7 +8,7 @@ const TranslationUZ = {
 
   // Header carusel
 
-  caruselInfo : "Qoida tariqasida, ko'pchilik shlanglar og'irligi va kattaligi tufayli juda noqulay. Mashinani yuvish yoki bog'ni sug'orish haqiqiy dahshatli tushga aylanishi ajablanarli emas. Magic Hose-ning mojizaviy shlangi bilan hamma narsa ancha osonlashadi. Shlang noyob texnologiya asosida yaratilgan: shlangga suv kelishi bilan u uch baravar ko'payadi, shu bilan birga u hali ham engil va qulay bo'lib qoladi",
+  caruselInfo : "Qoida tariqasida, ko'pchilik shlanglar og'irligi va kattaligi tufayli juda noqulay. Mashinani yuvish yoki bog'ni sug'orish haqiqiy dahshatli tushga aylanishi ajablanarli emas. Magic Hose-ning mojizaviy shlangi bilan hamma narsa ancha osonlashadi. Shlang noyob texnologiya asosida yaratilgan: shlangga suv kelishi bilan u uch baravar ko'payadi, shu bilan birga u hali ham yengil va qulay bo'lib qoladi",
   consultation : "Bepul kansultatsiya",
 
   card1Tittle : "Magic Hose bilan do'stlashishning beshta sababi:",
