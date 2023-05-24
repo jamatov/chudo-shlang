@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import Img from '../images/slider-img.png'
 import { useTranslation } from "react-i18next";
-import img1 from '../images/carusel30.jpg'
-import img2 from '../images/carusel37,5.jpg'
-import img3 from '../images/carusel45.png'
+import img1 from '../images/header30.jpg'
+import img2 from '../images/header37.5.jpg'
+import img3 from '../images/header45.jpg'
 
 
 export default function HeaderCarusel() {
