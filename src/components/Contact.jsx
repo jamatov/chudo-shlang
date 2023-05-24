@@ -12,13 +12,18 @@ import mail from '../images/social-icons/mail.svg'
 import locaton from '../images/social-icons/location_on.svg'
 import toast from 'react-hot-toast';
 
+import { useTranslation } from "react-i18next";
+
 
 
 export default function Contact() {
+  const { t } = useTranslation();
+
+
   const BOT_TOKEN = "6101556606:AAHiHxUJxnaibanSVqPXuXHYLDaD9ipfBkY";
   const CHAT_ID = "-1001760528705"
 
-  function formValidationChacking(name, number) {
+  function formValidationChacking(name, number, message) {
     let isBoolean = false;
 
     if (!name) {
@@ -34,6 +39,17 @@ export default function Contact() {
       setError(p => ({ ...p, phone: [true, 'Telefon raqam kiritilmadi!'] }))
       isBoolean = true
     }
+
+    if (!message) {
+      setError(p => ({ ...p, text: [true, "Habar yozish majburiy!"] }))
+      isBoolean = true
+
+    } else if (message?.length < 12) {
+      setError(p => ({ ...p, text: [true, "Habaringiz juda qisqa. Kamida 12ta belgi kerak!"] }))
+      isBoolean = true
+    }
+
+
     return isBoolean;
   }
 
@@ -41,11 +57,12 @@ export default function Contact() {
     e.preventDefault()
     let name = e.target[0].value
     let number = e.target[1].value
+    let message = e.target[2].value
 
-    if (formValidationChacking(name, number)) return
+    if (formValidationChacking(name, number, message)) return
     setDisbl(true)
 
-    let text = `<b>Ismi:</b> ${name} \n<b>Telefon raqami:</b> ${number} \n`
+    let text = `<b>Ismi:</b> ${name} \n<b>Telefon raqami:</b> ${number} \n<b>Xabar:</b> ${message}`
 
     axios.post(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
       chat_id: CHAT_ID,
@@ -57,12 +74,12 @@ export default function Contact() {
       }
     })
       .then((res) => {
-        toast.success("Habar yuborildi 🙂")
+        toast.success("Habaringiz muvofaqqiyatli yuborildi!")
         e.target.reset()
         setDisbl(false)
       })
       .catch((err) => {
-        toast.error("Habar yuborilmadi! Qaytadan urinib ko'ring 😞")
+        toast.error("Habar yuborilmadi! Qayta urinib ko'ring")
         setDisbl(false)
       })
 
@@ -86,6 +103,7 @@ export default function Contact() {
   const [error, setError] = useState({
     name: [false, ""],
     phone: [false, ""],
+    text: [false, ""],
   })
 
   return (
@@ -94,7 +112,7 @@ export default function Contact() {
         <h2>Biz bilan bog'lanish</h2>
         <div className="row align-items-center">
 
-          <form onSubmit={sendForm} data-aos="fade-right" data-aos-duration="1500" className='col-md-6 contact-form'>
+          {/* <form onSubmit={sendForm} data-aos="fade-right" data-aos-duration="1500" className='col-md-6 contact-form'>
             <label className='col-12' htmlFor="tel">Номер телефона</label>
             <input className='col-12' type="number" placeholder='Номер телефона' />
 
@@ -102,7 +120,36 @@ export default function Contact() {
             <textarea className='col-12' type="text" placeholder='Сообщение' />
 
             <button >Jo'natish <img src={buttonIcon} alt="arrow icon" /></button>
-          </form>
+          </form> */}
+
+          <form onSubmit={sendForm} data-aos="fade-right" data-aos-duration="500" className='col-md-6 contact-form'>
+
+              <div className='position-relative'>
+
+                <label>{t("numberlabel")}</label>
+                <input className='col-12 ' onChange={(e) => {
+                  e.target.setCustomValidity("");
+
+                  if (!e.target.validity.valid) {
+                    e.target.setCustomValidity(
+                      "Raqam noto'g'ri kiritilgan ! Misol: +998971050505"
+                    );
+                  }
+                  setError(p => ({ ...p, phone: [false, ''] }))
+                }} style={error.phone[0] ? styled : null} type="tel" pattern="[+]{1}[0-9]{3}[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder={t("numberplaceholder")} />
+                {error.phone[0] && <p style={{ color: 'red' }} className='position-absolute bottom-0 mb-3'>{error.phone[1]}</p>}
+              </div>
+
+              <div className='position-relative'>
+
+                <label>{t("massagelabel")}</label>
+                <textarea className='col-12 textarea' onChange={() => setError(p => ({ ...p, text: [false, ''] }))} style={error.text[0] ? styled : null} placeholder={t("massageplaceholder")}></textarea>
+                {error.text[0] && <p style={{ color: 'red' }} className='position-absolute bottom-0 mb-3'>{error.text[1]}</p>}
+              </div>
+
+               <button disabled={disbl}>Jo'natish <img src={buttonIcon} alt="arrow icon" /></button>
+                
+            </form>
 
           {/* <form className='contactForm' onSubmit={sendForm}>
             <div className='inputContent' onChange={() => setError(p => ({ ...p, name: [false, ''] }))} style={error.name[0] ? styled : null} >
@@ -131,7 +178,7 @@ export default function Contact() {
             <button disabled={disbl}>BEPUL KONSULTATSIYA</button>
           </form> */}
 
-          <div data-aos="fade-left" data-aos-duration="1500" className="col-md-6 socials">
+          <div data-aos="fade-left" data-aos-duration="500" className="col-md-6 socials">
             <a href="tel:+998338678767"><img className='mr' src={call} alt="" /> +998 33 867 87 67</a>
             <a href="mail"><img className='mr' src={mail} alt="" />HosUltra@gmail.com</a>
             <a href=""><img className='mr' src={locaton} alt="" />86GJ+8GM, Saqichmon ko'chasi, Tashkent, Oʻzbekiston</a>

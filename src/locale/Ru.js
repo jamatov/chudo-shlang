@@ -22,6 +22,12 @@ const TranslationRU = {
   card3Info5 : "5: Последние новинки из Magic Hose",
   card3Info6 : "6: Быстрое оформление заказа",
   card3Info7 : "7: Круглосуточный прием заказов",
+
+  numberlabel : "Номер телефона",
+  numberplaceholder : "Введите свой номер телефона",
+
+  massagelabel : "Сообщение",
+  massageplaceholder : "Отправьте нам подробное сообщение о вашем заказе",
 }
 
 export default TranslationRU

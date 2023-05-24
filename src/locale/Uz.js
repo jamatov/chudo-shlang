@@ -27,6 +27,15 @@ const TranslationUZ = {
   card3Info6 : "6: Buyurtmangizni tez qabul qilib olish",
   card3Info7 : "7: Buyurtmalarni 24/7  qabul qilish xizmati",
 
+  // Contact form
+
+  numberlabel : "Telefon raqam",
+  numberplaceholder : "Telefon raqamingizni yozing",
+  massagelabel : "Xabar",
+  massageplaceholder : "Buyurtma haqida bizga ba'tafsil xabar jo'nating",
+  
+
+
 
 }
 
