@@ -21,16 +21,19 @@ import green45 from '../images/card-images/green45.svg'
 import blue60 from '../images/card-images/blue60.svg'
 import green60 from '../images/card-images/green60.svg'
 
+import { useTranslation } from "react-i18next";
 
 
 
 
 
 export default function Products() {
+  const { t } = useTranslation();
+
   return (
     <main className='Products' id='Products'>
       <div className="container">
-        <h2 className='products-tittle'>Barcha maxsulotlar</h2>
+        <h2 className='products-tittle'>{t("allproducts")}</h2>
         <div className="row">
 
           <div className="col-6 col-md-4 col-lg-3">
@@ -42,7 +45,7 @@ export default function Products() {
                 {/* <div className="card-countdown">
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
-                <p className='skidka'>189 000 UZS</p>
+                <p className='skidka'>222 600 UZS</p>
                 <p className='price'>159 000 UZS</p>
 
                 <a href="tel:+998338678767">
@@ -64,7 +67,7 @@ export default function Products() {
                 {/* <div className="card-countdown">
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
-                <p className='skidka'>189 000 UZS</p>
+                <p className='skidka'>222 600 UZS</p>
                 <p className='price'>159 000 UZS</p>
 
                 <a href="tel:+998338678767">
@@ -86,7 +89,7 @@ export default function Products() {
                 {/* <div className="card-countdown">
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
-                <p className='skidka'>209 000 UZS</p>
+                <p className='skidka'>250 600 UZS</p>
                 <p className='price'>179 000 UZS</p>
 
                 <a href="tel:+998338678767">
@@ -108,7 +111,7 @@ export default function Products() {
                 {/* <div className="card-countdown">
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
-                <p className='skidka'>209 000 UZS</p>
+                <p className='skidka'>250 600 UZS</p>
                 <p className='price'>179 000 UZS</p>
 
                 <a href="tel:+998338678767">
@@ -130,7 +133,7 @@ export default function Products() {
                 {/* <div className="card-countdown">
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
-                <p className='skidka'>229 000 UZS</p>
+                <p className='skidka'>278 600 UZS</p>
                 <p className='price'>199 000 UZS</p>
 
                 <a href="tel:+998338678767">
@@ -152,7 +155,7 @@ export default function Products() {
                 {/* <div className="card-countdown">
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
-                <p className='skidka'>229 000 UZS</p>
+                <p className='skidka'>278 600 UZS</p>
                 <p className='price'>199 000 UZS</p>
 
                 <a href="tel:+998338678767">
@@ -171,7 +174,7 @@ export default function Products() {
               <div className="card-body">
                 <h3 className='card-info'>Magic hose - 37,5m</h3>
 
-                <p className='skidka'>239 000 UZS</p>
+                <p className='skidka'>292 600 UZS</p>
                 <p className='price'>209 000 UZS</p>
 
                 <a href="tel:+998338678767">
@@ -193,7 +196,7 @@ export default function Products() {
                 {/* <div className="card-countdown">
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
-                <p className='skidka'>239 000 UZS</p>
+                <p className='skidka'>292 600 UZS</p>
                 <p className='price'>209 000 UZS</p>
 
                 <a href="tel:+998338678767">
@@ -215,7 +218,7 @@ export default function Products() {
                 {/* <div className="card-countdown">
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
-                <p className='skidka'>259 000 UZS</p>
+                <p className='skidka'>320 600 UZS</p>
                 <p className='price'>229 000 UZS</p>
 
                 <a href="tel:+998338678767">
@@ -237,7 +240,7 @@ export default function Products() {
                 {/* <div className="card-countdown">
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
-                <p className='skidka'>259 000 UZS</p>
+                <p className='skidka'>320 600 UZS</p>
                 <p className='price'>229 000 UZS</p>
 
                 <a href="tel:+998338678767">
@@ -259,7 +262,7 @@ export default function Products() {
                 {/* <div className="card-countdown">
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
-                <p className='skidka'>279 000 UZS</p>
+                <p className='skidka'>348 600 UZS</p>
                 <p className='price'>249 000 UZS</p>
 
                 <a href="tel:+998338678767">
@@ -281,7 +284,7 @@ export default function Products() {
                 {/* <div className="card-countdown">
                   <img className='card-icon' src={timericon} alt="" />
                 </div> */}
-                <p className='skidka'>279 000 UZS</p>
+                <p className='skidka'>348 600 UZS</p>
                 <p className='price'>249 000 UZS</p>
 
                 <a href="tel:+998338678767">

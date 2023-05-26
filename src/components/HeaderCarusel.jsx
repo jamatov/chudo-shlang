@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import img1 from '../images/header30.jpg'
 import img2 from '../images/header37.5.jpg'
 import img3 from '../images/header45.jpg'
+import Header from "./Header";
 
 
 export default function HeaderCarusel() {
@@ -19,8 +20,8 @@ export default function HeaderCarusel() {
     pauseOnHover: true
   };
   return (
-    <div className="HeaderCarusel container" id="/">
-      <div>
+    <header className="HeaderCarusel container" id="/">
+      <div className="section-mb">
       <Slider {...settings}>
         <div className="slider-body column-reverse">
           <div className="slider-body__img">
@@ -68,7 +69,8 @@ export default function HeaderCarusel() {
         
       </Slider>
     </div>
-  </div>
+    <Header/>
+  </header>
   )
 }
 

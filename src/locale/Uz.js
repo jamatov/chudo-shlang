@@ -6,6 +6,8 @@ const TranslationUZ = {
   aboutUs : "Biz haqimizda",
   contact : "Aloqa",
 
+  allproducts : "Barcha mahsulotlar",
+
   // Header carusel
 
   caruselInfo : "Qoida tariqasida, ko'pchilik shlanglar og'irligi va kattaligi tufayli juda noqulay. Mashinani yuvish yoki bog'ni sug'orish haqiqiy dahshatli tushga aylanishi ajablanarli emas. Magic Hose-ning mojizaviy shlangi bilan hamma narsa ancha osonlashadi. Shlang noyob texnologiya asosida yaratilgan: shlangga suv kelishi bilan u uch baravar ko'payadi, shu bilan birga u hali ham yengil va qulay bo'lib qoladi",
@@ -34,9 +36,18 @@ const TranslationUZ = {
   massagelabel : "Xabar",
   massageplaceholder : "Buyurtma haqida bizga ba'tafsil xabar jo'nating",
   
+  // About info
+  about : "Biz haqimizda",
+  about1 : "Biz “Magic Hose” brendini O‘zbekistondagi dileri hisoblanamiz.",
+  about2 : "Bizning mahsulotlar asil (original) mahsulotlar hisoblanadi.",
+  about3 : "Hozirda mahsulotlarimizni butun O‘zbekiston bo‘ylab o‘z mijozlariga yetkazib bermoqdamiz.",
+  about4 : "Mijozlarimiz xaridlaridan va bizning xizmatlarimizdan mamnunlar.",
+  about5 : "Siz asil sifatni qadrlasangiz va ishonchli xaridni amalga oshirmoqchi bo‘lsangiz unda bizni tanlab adashmaysiz chunki biz mahsulotlarimizga 100% kafolat beramiz mahsulotni ko‘rib tekshirib to‘lovni amalga oshirasiz mahsulotlarimizda 1 hafta ichida agar nosozlik yuz bersa 1 hafta ichida mahsulotni almashtirish imkoniyatiga ega bo‘lasiz.",
+  about6 : "Ishonch bu sifat agar siz ishonchli sifatni tanlasangiz hoziroq biz bilan bog‘laning menejerimiz sizga konsultatsiya berishadi.",
+  about7 : "Tanlovingiz uchun rahmat!",
 
-
-
+  contactTitle : "Buyurtma haqida xabar qoldiring",
+  send : "Jo'natish",
 }
 
 export default TranslationUZ

@@ -1,22 +1,32 @@
 import React from 'react'
 import Img from '../images/about-img.jpg'
+import { useTranslation } from "react-i18next";
+import Cards from './Cards';
+
 
 export default function About() {
+  const { t } = useTranslation();
   return (
     <section className='About' id='About'>
       <div className="container">
-        <div className="row align-items-center">
-          <div data-aos="fade-right" data-aos-duration="500" className="col-lg-6">
+        <div className="row about-body align-items-center">
+          <div  className="col-lg-6">
             <img src={Img} alt="" />
           </div>
-          <div data-aos="fade-left" data-aos-duration="500" className="col-lg-6">
-            <h3>Biz haqimizda</h3>
-            <p>Sug'orish shlangi - cho'zilgan
-              Mavsum oldidan eng foydali narxlar
-              MAGIC HOSE (sehrli shlang) zamonaviy bog'bonlar va boshqalar uchun inqilobiy echimdir. Ushbu shlangning asosiy afzalligi uning yengilligi, ixchamligi, kuchliligi. Shlang bukilmaydi yoki burilmaydi. Suv yoqilganda shlang avtomatik ravishda kengayadi, shuningdek sug'orish ishlari tugagandan so'ng qisqaradi, bu esa uni saqlash uchun iloji boricha ixcham va oddiy shlanglardan farqli o'laroq ishlatish uchun qulay qiladi. To'plamga ettita ish rejimiga ega sug'orish moslamasi, shuningdek, foydalanish paytida maksimal qulaylikni ta'minlaydigan suv ta'minoti uchun mahkamlash moslamasi kiradi.</p>
+          <div className="col-lg-6">
+            <h3>{t("about")}</h3>
+            <p>{t("about1")}</p>
+            <p>{t("about2")}</p>
+            <p>{t("about3")}</p>
+            <p>{t("about4")}</p>
+            <p>{t("about5")}</p>
+            <p>{t("about6")}</p>
+            <p>{t("about7")}</p>
+
           </div>
         </div>
       </div>
+      <Cards/>
     </section>
   )
 }

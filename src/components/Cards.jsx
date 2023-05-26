@@ -16,7 +16,7 @@ export default function Cards() {
       <div className="container">
         <div className="row">
           <div className="col-lg-4 ">
-            <div data-aos="zoom-in" data-aos-duration="500" className="card">
+            <div  className="card">
               <img src={icon1} alt="" />
               <h3>{t("card1Tittle")}</h3>
               <p>{t("card1Info1")}</p>
@@ -28,7 +28,7 @@ export default function Cards() {
           </div>
 
           <div className="col-lg-4 ">
-            <div data-aos="zoom-in" data-aos-duration="500" className="card">
+            <div  className="card">
               <img src={icon2} alt="" />
               <h3>Yetkazib berish xizmati</h3>
               <p> O'zbekiston bo'ylab 50.000 so'm
@@ -37,7 +37,7 @@ export default function Cards() {
           </div>
 
           <div className="col-lg-4 ">
-            <div data-aos="zoom-in" data-aos-duration="500" className="card">
+            <div className="card">
               <img src={icon3} alt="" />
               <h3>{t("card3Tittle")}</h3>
               <p>{t("card3Info1")}</p>

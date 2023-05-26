@@ -36,12 +36,12 @@ function App() {
     <div className="App">
       <Navbar changeLang={changeLang}/>
       <HeaderCarusel/>
-      <Header/>
+      {/* <Header/> */}
       <Products/>
       <About/>
-      <Cards/>
+      {/* <Cards/> */}
       <Contact/>
-      <Location/>
+      {/* <Location/> */}
       <Footer/>
     </div>
   );

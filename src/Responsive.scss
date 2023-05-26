@@ -171,7 +171,7 @@ $card-bg : #F5F4FC;
   .About{
     margin-bottom: 60px;
     .row{
-      
+      margin-bottom: 64px;
       div{
         img{
           width: 100%;
@@ -335,9 +335,7 @@ $card-bg : #F5F4FC;
 
 
 @media (max-width : 768px) {
-  .HeaderCarusel{
-    padding-top: 62px !important;
-  }
+ 
 .Navbar{
   position: fixed;
   width: 100%;
@@ -377,6 +375,10 @@ $card-bg : #F5F4FC;
         margin-bottom: 40px !important;
       }
     }
+  }
+
+  .Cards{
+    margin-bottom: 0 !important;
   }
 
   .Contact{
