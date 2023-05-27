@@ -20,6 +20,11 @@ const TranslationUZ = {
   card1Info4 : "4. Agar kerak bo'lsa, bir nechta Magic Hose shlanglarni bir-biriga ulash mumkin", 
   card1Info5 : "5. 7 ish rejimiga ega purkagich", 
 
+  card2Tittle : "Yetkazib berish xizmati ",
+  card2Info1 : "O'zbekiston bo'ylab 50.000 so'm",
+  card2Info2 : "Toshkent shahri bo'ylab - 25.000 so'm",
+
+
   card3Tittle : "Bizning afzalliklarimiz",  
   card3Info1 : "1: Omborda barcha tovarlarning mavjudligi",
   card3Info2 : "2: Arzon narxlar va chegirmalar",

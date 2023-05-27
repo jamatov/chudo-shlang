@@ -30,9 +30,9 @@ export default function Cards() {
           <div className="col-lg-4 ">
             <div  className="card">
               <img src={icon2} alt="" />
-              <h3>Yetkazib berish xizmati</h3>
-              <p> O'zbekiston bo'ylab 50.000 so'm
-              Toshkent shahri bo'ylab - 25.000 so'm</p>
+              <h3>{t("card2Tittle")}</h3>
+              <p>{t("card2Info1")}</p>
+              <p>{t("card2Info2")}</p>
             </div>
           </div>
 

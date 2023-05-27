@@ -5,6 +5,8 @@ import icon2 from '../images/social-icons/footer-insta.svg'
 import icon3 from '../images/social-icons/footer-youtube.svg'
 import icon4 from '../images/social-icons/footer-facebook.svg'
 import { useTranslation } from "react-i18next";
+import { Link } from 'react-scroll';
+
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -19,10 +21,10 @@ export default function Footer() {
 
           <div className="d-flex">
             <ul className='ul1'>
-              <li><a className='footer-links' href="#HeaderCarusel">{t("home")}</a></li>
-              <li><a className='footer-links' href="#Products">{t("products")}</a></li>
-              <li><a className='footer-links' href="#About">{t("aboutUs")}</a></li>
-              <li><a className='footer-links' href="#Contact">{t("contact")}</a></li>
+              <li><Link to='/' spy={true} smooth={true} offset={0} duration={100} className='footer-links' href="#HeaderCarusel">{t("home")}</Link></li>
+              <li><Link to='Products' spy={true} smooth={true} offset={-90} duration={100} className='footer-links' href="#Products">{t("products")}</Link></li>
+              <li><Link to='About' spy={true} smooth={true} offset={-90} duration={100} className='footer-links' href="#About">{t("aboutUs")}</Link></li>
+              <li><Link to='Contact'  spy={true} smooth={true} offset={-60} duration={100} className='footer-links' href="#Contact">{t("contact")}</Link></li>
             </ul>
 
             <ul>
