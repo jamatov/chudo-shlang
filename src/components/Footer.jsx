@@ -28,10 +28,8 @@ export default function Footer() {
             </ul>
 
             <ul>
-              <li><a href=""><img src={icon1} alt="" /></a></li>
+              <li><a href="https://www.instagram.com/magichose.uz/" target='_blank'><img src={icon1} alt="" /></a></li>
               <li><a href=""><img src={icon2} alt="" /></a></li>
-              <li><a href=""><img src={icon3} alt="" /></a></li>
-              <li><a href=""><img src={icon4} alt="" /></a></li>
             </ul>
           </div>
         </div>

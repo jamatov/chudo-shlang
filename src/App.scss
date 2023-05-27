@@ -138,7 +138,7 @@ li{
       padding: 10px 5px;
       border: 1px solid $green;
       border-radius: 20px;
-      background: #fff;
+      background: none;
       &:focus{
         border: 1px solid $green;
         border-radius: 20px;
@@ -277,7 +277,12 @@ li{
     padding: 48px 82px;
     gap: 25px;
 
-    
+    .video{
+      iframe{
+        width: 100%;
+        border-radius: 30px;
+      }
+    }
 
     img{
       width: 100%;
@@ -287,8 +292,9 @@ li{
       h2{
         font-style: normal;
         font-weight: 700;
-        font-size: 56px;
-        line-height: 66px;
+        line-height: 38px;
+
+        font-size: 36px;
         color: #FFFFFF;
         margin-bottom: 15px;
       }
@@ -299,7 +305,7 @@ li{
         font-size: 24px;
         line-height: 28px;
         color: rgba(255, 255, 255, 0.75);
-        margin-bottom: 48px;
+        margin-bottom: 28px;
       }
 
       button{
@@ -310,7 +316,7 @@ li{
         align-items: center;
         padding: 10px 32px;
         gap: 10px;
-        width: 227px;
+        max-width: 377px;
         height: 40px;
         border: 1px solid #FFFFFF;
         border-radius: 10px;

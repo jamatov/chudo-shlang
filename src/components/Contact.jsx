@@ -159,21 +159,15 @@ export default function Contact() {
             <a href=""><img className='mr' src={locaton} alt="" />86GJ+8GM, Saqichmon ko'chasi, Tashkent, Oʻzbekiston</a>
 
             <div className="contact-socials">
-              <a href="">
-              <img src={telegram} alt="" />
+              <a href="" >
+                <img src={telegram} alt="" />
               </a>
 
-              <a href="">
+              <a href="https://www.instagram.com/magichose.uz/" target='_blank'>
                 <img src={instagram} alt="" />
               </a>
 
-              <a href="">
-                <img src={youtube} alt="" />
-              </a>
-
-              <a href="">
-                <img src={facebook} alt="" />
-              </a>
+              
             </div>
           </div>
         </div>

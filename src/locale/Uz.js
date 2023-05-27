@@ -13,6 +13,9 @@ const TranslationUZ = {
   caruselInfo : "Qoida tariqasida, ko'pchilik shlanglar og'irligi va kattaligi tufayli juda noqulay. Mashinani yuvish yoki bog'ni sug'orish haqiqiy dahshatli tushga aylanishi ajablanarli emas. Magic Hose-ning mojizaviy shlangi bilan hamma narsa ancha osonlashadi. Shlang noyob texnologiya asosida yaratilgan: shlangga suv kelishi bilan u uch baravar ko'payadi, shu bilan birga u hali ham yengil va qulay bo'lib qoladi",
   consultation : "Bepul kansultatsiya",
 
+  headTittle : "MAGIC HOSE sug'orish shlangidan foydalanish bo'yicha ko'rsatmalar", 
+  headInfo : "Magic Hose - bu inqilobiy yangi shlang bo'lib, u suv ta'minoti yoqilganda avtomatik ravishda asl uzunligiga 3 martagacha cho'ziladi va suv ta'minoti o'chirilganda shlang avtomatik ravishda asl uzunligiga qaytadi.",
+
   card1Tittle : "Magic Hose bilan do'stlashishning beshta sababi:",
   card1Info1 : "1. \"Magic Hose\" - bu shlangning yangi takomillashtirilgan versiyasi bo'lib, uning ishlash muddati oddiy shlangdan 3 baravar ko'p", 
   card1Info2 : "2. 3D nano texnologiyasi: bardoshli va moslashuvchan ichki qoplama \"Magic Hose\" shlangini yuzlab marta siqish va ochish imkonini beradi", 

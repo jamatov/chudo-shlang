@@ -32,7 +32,9 @@ export default function HeaderCarusel() {
             <h2>Magic Hose ORIGINAL</h2>
             <p>{t("caruselInfo")}</p>
 
-            <button>{t("consultation")}</button>
+            <a href="https://t.me/magichoseadmin" target="_blank">
+                <button>{t("consultation")}</button>
+            </a>
 
           </div>
         </div>
@@ -46,7 +48,9 @@ export default function HeaderCarusel() {
             <p>{t("caruselInfo")}</p>
 
 
-            <button>{t("consultation")}</button>
+            <a href="https://t.me/magichoseadmin" target="_blank">
+                <button>{t("consultation")}</button>
+            </a>
 
 
           </div>
@@ -61,7 +65,9 @@ export default function HeaderCarusel() {
             <p>{t("caruselInfo")}</p>
 
 
-            <button>{t("consultation")}</button>
+            <a href="https://t.me/magichoseadmin" target="_blank">
+                <button>{t("consultation")}</button>
+            </a>
 
 
           </div>
