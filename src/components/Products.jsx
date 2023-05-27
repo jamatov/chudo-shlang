@@ -48,10 +48,10 @@ export default function Products() {
                 <p className='skidka'>222 600 UZS</p>
                 <p className='price'>159 000 UZS</p>
 
-                <a href="tel:+998338678767">
+                <a href="tel:+998998441114">
                   <button className='card-button'>
                     <img src={cardbutton} alt="" />
-                    +998 33 867 87 67
+                    +998 99 844 11 14
                   </button>
                 </a>
               </div>
@@ -70,10 +70,10 @@ export default function Products() {
                 <p className='skidka'>222 600 UZS</p>
                 <p className='price'>159 000 UZS</p>
 
-                <a href="tel:+998338678767">
+                <a href="tel:+998998441114">
                   <button className='card-button'>
                     <img src={cardbutton} alt="" />
-                    +998 33 867 87 67
+                    +998 99 844 11 14
                   </button>
                 </a>
               </div>
@@ -92,10 +92,10 @@ export default function Products() {
                 <p className='skidka'>250 600 UZS</p>
                 <p className='price'>179 000 UZS</p>
 
-                <a href="tel:+998338678767">
+                <a href="tel:+998998441114">
                   <button className='card-button'>
                     <img src={cardbutton} alt="" />
-                    +998 33 867 87 67
+                    +998 99 844 11 14
                   </button>
                 </a>
               </div>
@@ -114,10 +114,10 @@ export default function Products() {
                 <p className='skidka'>250 600 UZS</p>
                 <p className='price'>179 000 UZS</p>
 
-                <a href="tel:+998338678767">
+                <a href="tel:+998998441114">
                   <button className='card-button'>
                     <img src={cardbutton} alt="" />
-                    +998 33 867 87 67
+                    +998 99 844 11 14
                   </button>
                 </a>
               </div>
@@ -136,10 +136,10 @@ export default function Products() {
                 <p className='skidka'>278 600 UZS</p>
                 <p className='price'>199 000 UZS</p>
 
-                <a href="tel:+998338678767">
+                <a href="tel:+998998441114">
                   <button className='card-button'>
                     <img src={cardbutton} alt="" />
-                    +998 33 867 87 67
+                    +998 99 844 11 14
                   </button>
                 </a>
               </div>
@@ -158,10 +158,10 @@ export default function Products() {
                 <p className='skidka'>278 600 UZS</p>
                 <p className='price'>199 000 UZS</p>
 
-                <a href="tel:+998338678767">
+                <a href="tel:+998998441114">
                   <button className='card-button'>
                     <img src={cardbutton} alt="" />
-                    +998 33 867 87 67
+                    +998 99 844 11 14
                   </button>
                 </a>
               </div>
@@ -177,10 +177,10 @@ export default function Products() {
                 <p className='skidka'>292 600 UZS</p>
                 <p className='price'>209 000 UZS</p>
 
-                <a href="tel:+998338678767">
+                <a href="tel:+998998441114">
                   <button className='card-button'>
                     <img src={cardbutton} alt="" />
-                    +998 33 867 87 67
+                    +998 99 844 11 14
                   </button>
                 </a>
               </div>
@@ -199,10 +199,10 @@ export default function Products() {
                 <p className='skidka'>292 600 UZS</p>
                 <p className='price'>209 000 UZS</p>
 
-                <a href="tel:+998338678767">
+                <a href="tel:+998998441114">
                   <button className='card-button'>
                     <img src={cardbutton} alt="" />
-                    +998 33 867 87 67
+                    +998 99 844 11 14
                   </button>
                 </a>
               </div>
@@ -221,10 +221,10 @@ export default function Products() {
                 <p className='skidka'>320 600 UZS</p>
                 <p className='price'>229 000 UZS</p>
 
-                <a href="tel:+998338678767">
+                <a href="tel:+998998441114">
                   <button className='card-button'>
                     <img src={cardbutton} alt="" />
-                    +998 33 867 87 67
+                    +998 99 844 11 14
                   </button>
                 </a>
               </div>
@@ -243,10 +243,10 @@ export default function Products() {
                 <p className='skidka'>320 600 UZS</p>
                 <p className='price'>229 000 UZS</p>
 
-                <a href="tel:+998338678767">
+                <a href="tel:+998998441114">
                   <button className='card-button'>
                     <img src={cardbutton} alt="" />
-                    +998 33 867 87 67
+                    +998 99 844 11 14
                   </button>
                 </a>
               </div>
@@ -265,10 +265,10 @@ export default function Products() {
                 <p className='skidka'>348 600 UZS</p>
                 <p className='price'>249 000 UZS</p>
 
-                <a href="tel:+998338678767">
+                <a href="tel:+998998441114">
                   <button className='card-button'>
                     <img src={cardbutton} alt="" />
-                    +998 33 867 87 67
+                    +998 99 844 11 14
                   </button>
                 </a>
               </div>
@@ -287,10 +287,10 @@ export default function Products() {
                 <p className='skidka'>348 600 UZS</p>
                 <p className='price'>249 000 UZS</p>
 
-                <a href="tel:+998338678767">
+                <a href="tel:+998998441114">
                   <button className='card-button'>
                     <img src={cardbutton} alt="" />
-                    +998 33 867 87 67
+                    +998 99 844 11 14
                   </button>
                 </a>
               </div>

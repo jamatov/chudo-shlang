@@ -154,7 +154,7 @@ export default function Contact() {
 
 
           <div  className="col-md-6 socials">
-            <a href="tel:+998338678767"><img className='mr' src={call} alt="" /> +998 33 867 87 67</a>
+            <a href="tel:+998998441114"><img className='mr' src={call} alt="" /> +998 99 844 11 14</a>
             <a href="mail"><img className='mr' src={mail} alt="" />HosUltra@gmail.com</a>
             <a href=""><img className='mr' src={locaton} alt="" />86GJ+8GM, Saqichmon ko'chasi, Tashkent, Oʻzbekiston</a>
 
