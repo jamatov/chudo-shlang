@@ -32,6 +32,9 @@ const TranslationRU = {
   card3Info6 : "6: Быстрое оформление заказа",
   card3Info7 : "7: Круглосуточный прием заказов",
 
+  namelabel : "Имя и фамилия",
+  nameplaceholder  :"Пожалуйста, напишите ваше полное имя",
+
   numberlabel : "Номер телефона",
   numberplaceholder : "Введите свой номер телефона",
 

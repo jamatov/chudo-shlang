@@ -16,6 +16,10 @@ import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import TranslationRU from './locale/Ru';
 import TranslationUZ from './locale/Uz';
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-BHWZ12KYK8" ;
+ReactGA.initialize(TRACKING_ID);
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -25,6 +29,7 @@ i18n.use(initReactI18next).init({
   lng: "uz",
   fallbackLng: "uz",
 });
+
 
 function App() {
   const changeLang = (value) => {

@@ -38,7 +38,8 @@ const TranslationUZ = {
   card3Info7 : "7: Buyurtmalarni 24/7  qabul qilish xizmati",
 
   // Contact form
-
+  namelabel : "Isim familiya",
+  nameplaceholder  :"Isim familyangizni to'liq yozing",
   numberlabel : "Telefon raqam",
   numberplaceholder : "Telefon raqamingizni yozing",
   massagelabel : "Xabar",
