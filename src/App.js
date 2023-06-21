@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="App">
       <Navbar changeLang={changeLang}/>
-      <HeaderCarusel/>
+      <HeaderCarusel/> 
       {/* <Header/> */}
       <Products/>
       <About/>
